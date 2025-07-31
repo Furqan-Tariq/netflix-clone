@@ -67,7 +67,7 @@ A full-stack Netflix clone built with modern web technologies, featuring user au
 
 1. **Clone the repository**
 \`\`\`bash
-git clone https://github.com/yourusername/netflix-clone.git
+git clone https://github.com/Furqan-Tariq/netflix-clone.git
 cd netflix-clone
 \`\`\`
 
@@ -227,13 +227,11 @@ Headers: Authorization: Bearer YOUR_JWT_TOKEN
 ## 🎨 Screenshots
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400/000000/FFFFFF?text=Netflix+Clone+Home+Page)
+![Home Page](./assets/homepage.png)
 
-### Movie Grid
-![Movie Grid](https://via.placeholder.com/800x400/000000/FFFFFF?text=Movie+Grid+View)
 
 ### User Profile
-![User Profile](https://via.placeholder.com/800x400/000000/FFFFFF?text=User+Profile+Page)
+![User Profile](./assets/profile.png)
 
 ## 🔒 Security Features
 
@@ -286,4 +284,4 @@ If you have any questions or run into issues, please open an issue on GitHub or 
 
 ⭐ **Star this repository if you found it helpful!**
 
-Made with ❤️ by [Your Name](https://github.com/Furqan-Tariq)
+Made with ❤️ by [Furqan Tariq](https://github.com/Furqan-Tariq)
