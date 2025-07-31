@@ -56,6 +56,7 @@ export default function ResetPasswordPage() {
       setTimeout(() => {
         router.push("/login")
       }, 2000)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       setError(error.response?.data?.message || "Failed to reset password")
     } finally {

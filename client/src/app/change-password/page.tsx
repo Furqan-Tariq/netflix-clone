@@ -55,6 +55,7 @@ export default function ChangePasswordPage() {
         newPassword: "",
         confirmPassword: "",
       })
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       setError(error.response?.data?.message || "Failed to change password")
     } finally {

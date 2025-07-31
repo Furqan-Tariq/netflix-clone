@@ -26,6 +26,7 @@ export default function RegisterPage() {
       const response = await authAPI.register(formData)
       localStorage.setItem("token", response.data.token)
       router.push("/")
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       setError(error.response?.data?.message || "Registration failed")
     } finally {

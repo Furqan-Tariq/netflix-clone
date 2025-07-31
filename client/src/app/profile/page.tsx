@@ -53,7 +53,8 @@ export default function ProfilePage() {
       setUser(response.data)
       setMessage("Profile updated successfully!")
     } catch (error) {
-      setMessage("Error updating profile")
+      console.error("Error updating profile:", error) 
+      //setMessage("Error updating profile")
     } finally {
       setIsUpdating(false)
     }

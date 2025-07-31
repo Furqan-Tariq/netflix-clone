@@ -24,6 +24,7 @@ export default function ForgotPasswordPage() {
       if (response.data.resetToken) {
         setResetToken(response.data.resetToken)
       }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       setMessage(error.response?.data?.message || "Failed to send reset email")
     } finally {
