@@ -204,17 +204,17 @@ netflix-clone/
 Import the API endpoints into Postman and test with these examples:
 
 ### Register User
-\`\`\`json
+``` bash json
 POST /auth/register
 {
   "name": "John Doe",
   "email": "john@example.com",
   "password": "password123"
 }
-\`\`\`
+```
 
 ### Add to Favorites
-\`\`\`json
+``` bash json
 POST /favorites/add
 Headers: Authorization: Bearer YOUR_JWT_TOKEN
 {
@@ -222,7 +222,7 @@ Headers: Authorization: Bearer YOUR_JWT_TOKEN
   "title": "Fight Club",
   "poster": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
 }
-\`\`\`
+```
 
 ## 🎨 Screenshots
 
