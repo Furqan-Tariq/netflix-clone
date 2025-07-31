@@ -132,7 +132,7 @@ Navigate to \`http://localhost:3000\`
 
 ## 📁 Project Structure
 
-\`\`\`
+``` bash
 netflix-clone/
 ├── client/                 # Next.js Frontend
 │   ├── src/
@@ -167,7 +167,7 @@ netflix-clone/
 │   ├── .env
 │   └── package.json
 └── README.md
-\`\`\`
+```
 
 ## 🔌 API Endpoints
 
